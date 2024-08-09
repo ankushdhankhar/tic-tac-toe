@@ -112,5 +112,9 @@ h1{
     height: 55vh;
     margin-bottom: 8vh;
   }
+  .msg-container{
+    height: 100vh;
+    
+  }
  
 }
