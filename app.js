@@ -3,6 +3,7 @@ let resetButton=document.querySelector("#resetButton") ;
 let newGameBtn=document.querySelector("#new-btn") ;
 let msgContainer=document.querySelector(".msg-container ") ;
 let msg=document.querySelector("#msg")
+let mainGame=document.querySelector(".maingame") ;
 
 let turnO = true ;
 
@@ -21,6 +22,7 @@ const newGame=()=>{
     turnO = true ;
     enabledBoxes();
     msgContainer.classList.add("hide");
+    mainGame.classList.remove("hide") ;
     buttonClicked=0 ;
 
 }
@@ -52,6 +54,8 @@ boxes.forEach((box)=>{
 const drawGame=()=>{
     msg.innerText=`The Game was Draw` ;
     msgContainer.classList.remove("hide") ;
+    mainGame.classList.add("hide") ;
+
 }
 
 
@@ -72,6 +76,8 @@ const enabledBoxes =()=>{
 const showWinner=(winner)=>{
     msg.innerText=`Congrats , winner is ${winner}` ;
     msgContainer.classList.remove("hide") ;
+    mainGame.classList.add("hide") ;
+
     disabledBoxes() ;
 }
 

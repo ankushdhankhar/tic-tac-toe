@@ -95,3 +95,22 @@ h1{
 .hide{
     display: none;
 }
+
+@media (max-width:800px) {
+  h1{
+    font-size: 3rem;
+  }
+  .game{
+    width: 95vw;
+    
+  }
+  .box{
+    width: 25vmin;
+    height: 25vmin;
+  }
+  .container{
+    height: 60vh;
+    margin-bottom: 8vh;
+  }
+ 
+}
