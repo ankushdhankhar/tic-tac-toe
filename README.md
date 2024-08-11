@@ -3,10 +3,18 @@
 ## Overview
 A classic Tic-Tac-Toe game built with HTML, CSS, and JavaScript. This game features a responsive layout, supports two players, and provides functionality to start a new game or reset the current one.
 
+<<<<<<< HEAD
 <div style="display: flex; justify-content: center; gap: 20px;">
   <img src="on-laptop.png" alt="Game on laptop" width="200">
   <img src="on-phone.jpg" alt="Game on phone" width="100">
 </div>
+=======
+### on laptop
+![Game Screenshot](on-laptop.png)
+
+### on phone
+![Game Screenshot](on-phone.jpg)
+>>>>>>> 18783b3b7db550e25a0e570c9cf1cb528dea1f73
 
 ## Features
 - **Game Board**: A 3x3 grid where players take turns marking their moves.
