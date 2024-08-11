@@ -5,10 +5,10 @@ A classic Tic-Tac-Toe game built with HTML, CSS, and JavaScript. This game featu
 
 
 <div style="display: flex; justify-content: center; align-items :center ; gap: 60px;">
- <div>
+ <div style="width:400px">
   <img src="on-laptop.png" alt="Game on laptop" width="400">
   </div>
-  <div>
+  <div style="width:200px">
   <img src="on-phone.jpg" alt="Game on phone" width="150">
   </div>
 </div>
