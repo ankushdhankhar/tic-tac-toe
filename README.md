@@ -4,7 +4,7 @@
 A classic Tic-Tac-Toe game built with HTML, CSS, and JavaScript. This game features a responsive layout, supports two players, and provides functionality to start a new game or reset the current one.
 
 
-<div style="display: flex; justify-content: center;  gap: 60px;">
+<div style="display: flex; justify-content:space-evenly;  gap: 60px;">
 
   <img src="on-laptop.png" alt="Game on laptop" width="400">
   <img src="on-phone.jpg" alt="Game on phone" width="150">
