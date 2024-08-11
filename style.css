@@ -1,13 +1,14 @@
 *{
     padding: 0%;
     margin: 0%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 body{
-    background-color: black;
+    background-color: #03172b;
     text-align: center;
 }
 h1{
-    color: rgb(255, 255, 255);
+    color: #d4af37;
     font-size: 3.5rem;
     margin-top: 5vh;
 }
@@ -33,7 +34,7 @@ h1{
     border: none;
     box-shadow: 0 0 1rem rgba(0,0,0,0.3);
     color: #000000;
-    font-size: 8vmin;
+    font-size: 13vmin;
     background-color: #ffffff;
 
 }
@@ -42,7 +43,7 @@ h1{
     cursor:pointer;
       position:relative;
       padding:10px 20px;
-      background:rgb(92, 92, 92);
+      background:#8b0000;
       font-size:28px;
       border-top-right-radius:10px;
       border-bottom-left-radius:10px;
@@ -98,9 +99,12 @@ h1{
 
 @media (max-width:800px) {
   h1{
+    margin-top: 7vh;
     font-size: 2.5rem;
   }
   .game{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     width: 95vw;
     
   }
@@ -115,5 +119,6 @@ h1{
   .msg-container{
     height: 90vh;
   }
+  
  
 }
