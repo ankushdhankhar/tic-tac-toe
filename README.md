@@ -30,6 +30,3 @@ A classic Tic-Tac-Toe game built with HTML, CSS, and JavaScript. This game featu
 - **Check Winner**: Validates winning conditions and displays results.
 - **Draw Handling**: Shows a message if the game ends without a winner.
 - **Game Controls**: Enables or disables board interactions and manages game state.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
