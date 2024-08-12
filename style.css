@@ -96,6 +96,15 @@ h1{
 .hide{
     display: none;
 }
+.line {
+  position: absolute;
+  background-color: #03172b;
+  height: 15px;
+  width: 4px;
+  transform-origin: left;
+  z-index: 10;
+}
+
 
 @media (max-width:800px) {
   h1{
